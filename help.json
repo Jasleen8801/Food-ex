@@ -1,0 +1,17 @@
+{
+    "Random Commands": {
+        "randrecipe": "To fetch a random recipe",
+        "randjoke": "To fetch a random joke",
+        "randtrivia": "To fetch a random food trivia"
+    },
+    "Basic Commands": {
+        "help": "Shows this command... DUH!!!!",
+        "search": "To search a particular recipe and get its ID"
+    },
+    "Recipe Commands": {
+        "info": "To access the information of a particular recipe",
+        "nutrition": "To access the nutritional value of a particular recipe",
+        "cost": "To access the cost value of a particular recip", 
+        "taste": "To access the taste of a particular recipe"
+    }
+}
