@@ -1,13 +1,13 @@
 import nextcord
 import os
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 from nextcord.ext import commands
 import asyncio
 from pathlib import Path
 
-load_dotenv()
+# load_dotenv()
 
-DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
+DISCORD_TOKEN = os.environ["DISCORD_TOKEN"]
 
 intents = nextcord.Intents.default()
 intents.message_content = True
