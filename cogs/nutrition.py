@@ -9,7 +9,7 @@ class NutritionCog(commands.Cog):
     def __init__(self, bot) -> None:
         self.bot = bot
 
-    guild_id = 1028619109044326440
+    guild_id = 1040237301814546462
 
     @nextcord.slash_command(name="nutrition", description="To access the nutritional value of a particular recipe", guild_ids=[guild_id])
     async def nutrition(self, interaction, id: int):
