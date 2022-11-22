@@ -20,7 +20,7 @@ class HelpCog(commands.Cog):
             embed.set_footer(text=f"Page {pageNum+1} of {len(list(helpGuide))}")
         return embed
 
-    @nextcord.slash_command(name="help", guild_ids=[1028619109044326440])
+    @nextcord.slash_command(name="help", guild_ids=[1040237301814546462])
     async def Help(self, interaction):
         currentPage = 0
 
