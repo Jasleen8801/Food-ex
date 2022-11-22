@@ -9,7 +9,7 @@ class RandTriviaCog(commands.Cog):
     def __init__(self, bot) -> None:
         self.bot = bot
 
-    guild_id = 1028619109044326440
+    guild_id = 1040237301814546462
 
     @nextcord.slash_command(name="randomtrivia", description="To fetch a random food trivia", guild_ids=[guild_id])
     async def randomtrivia(self, interaction):
