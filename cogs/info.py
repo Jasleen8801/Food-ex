@@ -13,7 +13,7 @@ class InfoCog(commands.Cog):
     def __init__(self, bot) -> None:
         self.bot = bot
 
-    guild_id = 1028619109044326440
+    guild_id = 1040237301814546462
 
     @nextcord.slash_command(name="info", description="To access the information of a particular recipe", guild_ids=[guild_id])
     async def info(self, interaction, id: int):
