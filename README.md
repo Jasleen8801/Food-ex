@@ -21,6 +21,10 @@ The following screenshot consists of the slash commands that are available in ou
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 Please make sure to update your local repository.
 
+## Deployment
+We've deployed the final version of this bot on replit, and you can visit - https://replit.com/@JasleenKaur28/Food-ex?v=.<br/>
+Also to join our server, Foodie-fi, kindly join using the invite link - https://discord.gg/2t5THKP7
+
 ## Show some Support
 ```
 function support() {
